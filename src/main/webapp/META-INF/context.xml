@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<!--    <Resource-->
+<!--    auht="Container"-->
+<!--    name="jdbc/test1"-->
+<!--    type="javax.sql.DataSource"-->
+<!--    username="postgres"-->
+<!--    password="kia"-->
+<!--    url="jdbc:postgresql://localhost:5433/security"-->
+<!--    driverClassName="org.postgresql.Driver"-->
+<!--    maxTotal="20"-->
+<!--    maxIdle="10"-->
+<!--    />-->
+    <ResourceLink name="jdbc/global"
+                  type="javax.sql.DataSource"
+                  global="jdbc/test1"/>
+</Context>
